@@ -49,11 +49,17 @@
     </header>
     <main class="layout container">
       <section class="header">
-        <img
-          class="header__image"
-          src="./assets/images/image-web-3-mobile.jpg"
-          alt="The bright future of web 3.0"
-        />
+        <picture>
+          <source
+            srcset="./assets/images/image-web-3-desktop.jpg"
+            media="(min-width: 37.5em)"
+          />
+          <img
+            class="header__image"
+            src="./assets/images/image-web-3-mobile.jpg"
+            alt="The bright future of web 3.0"
+          />
+        </picture>
         <div class="header__content">
           <h1 class="header__title">The Bright Future of Web 3.0?</h1>
           <div class="header__description">

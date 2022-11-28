@@ -148,8 +148,8 @@ body {
 
   .navbar__menu-close {
     display: none;
-    position: absolute;
-    right: 0;
+    position: fixed;
+    right: 16px;
   }
 
   .open-menu {
