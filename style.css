@@ -320,6 +320,7 @@ main {
   display: flex;
   flex-direction: column;
   gap: 34px;
+  padding-bottom: 64px;
 }
 
 .related__item {
