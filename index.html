@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Frontend Mentor | News homepage</title>
+
+    <script async src="script.js"></script>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="navbar container">
+          <img src="./assets/images/logo.svg" alt="Logo" />
+          <ul class="navbar__list" role="list">
+            <li><a class="navbar__list-item" href="#">Home</a></li>
+            <li><a class="navbar__list-item" href="#">New</a></li>
+            <li><a class="navbar__list-item" href="#">Popular</a></li>
+            <li><a class="navbar__list-item" href="#">Trending</a></li>
+            <li><a class="navbar__list-item" href="#">Categories</a></li>
+          </ul>
+          <div class="overlay"></div>
+          <div class="navbar__menu-open">
+            <button class="button" type="button">
+              <img src="./assets/images/icon-menu.svg" alt="Open menu" />
+            </button>
+          </div>
+          <div class="navbar__menu-close">
+            <button class="button" type="button">
+              <img src="./assets/images/icon-menu-close.svg" alt="Close menu" />
+            </button>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main class="layout container">
+      <section class="header">
+        <img
+          class="header__image"
+          src="./assets/images/image-web-3-mobile.jpg"
+          alt="The bright future of web 3.0"
+        />
+        <div class="header__content">
+          <h1 class="header__title">The Bright Future of Web 3.0?</h1>
+          <div class="header__description">
+            <p>
+              We dive into the next evolution of the web that claims to put the
+              power of the platforms back into the hands of the people. But is
+              it really fulfilling its promise?
+            </p>
+            <a class="header__description-link" href="#">Read more</a>
+          </div>
+        </div>
+      </section>
+      <aside class="articles">
+        <h2 class="articles__title">New</h2>
+        <div>
+          <article class="article-item">
+            <h3 class="article__title-item">Hydrogen VS Electric Cars</h3>
+            <p>Will hydrogen-fueled cars ever catch up to EVs?</p>
+          </article>
+          <article class="article-item">
+            <h3 class="article__title-item">The Downsides of AI Artistry</h3>
+            <p>
+              What are the possible adverse effects of on-demand AI image
+              generation?
+            </p>
+          </article>
+          <article class="article-item">
+            <h3 class="article__title-item">Is VC Funding Drying Up?</h3>
+            <p>
+              Private funding by VC firms is down 50% YOY. We take a look at
+              what that means.
+            </p>
+          </article>
+        </div>
+      </aside>
+    </main>
+    <section class="related container" role="footer">
+      <div class="related__item">
+        <img
+          src="./assets/images/image-retro-pcs.jpg"
+          alt="Reviving Retro PCs"
+          class="related__image"
+        />
+        <div class="related__item-description">
+          <span class="related__item-number">01</span>
+          <h2 class="related__item-title">Reviving Retro PCs</h2>
+          <p class="related__item-content">
+            What happens when old PCs are given modern upgrades?
+          </p>
+        </div>
+      </div>
+      <div class="related__item">
+        <img
+          src="./assets/images/image-top-laptops.jpg"
+          alt="Top 10 Laptops of 2022"
+          class="related__image"
+        />
+        <div class="related__item-description">
+          <span class="related__item-number">02</span>
+          <h2 class="related__item-title">Top 10 Laptops of 2022</h2>
+          <p class="related__item-content">
+            Our best picks for various needs and budgets.
+          </p>
+        </div>
+      </div>
+      <div class="related__item">
+        <img
+          src="./assets/images/image-gaming-growth.jpg"
+          alt="The Growth of Gaming"
+          class="related__image"
+        />
+        <div class="related__item-description">
+          <span class="related__item-number">03</span>
+          <h2 class="related__item-title">The Growth of Gaming</h2>
+          <p class="related__item-content">
+            How the pandemic has sparked fresh opportunities.
+          </p>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
